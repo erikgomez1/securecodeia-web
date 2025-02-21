@@ -67,6 +67,32 @@
     color: #fff;
 }
 
+/* Redes Sociales */
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.social-icon {
+    color: #fff;
+    background-color: #34495e; /* Gris oscuro */
+    padding: 15px;
+    margin: 10px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 1.8em;
+    transition: background-color 0.3s ease;
+}
+
+.social-icon:hover {
+    background-color: #00aaff; /* Azul claro para hover */
+}
+
+.social-icon i {
+    margin-right: 10px;
+}
+
 /* Botón de CTA */
 .cta {
     margin-top: 40px;
