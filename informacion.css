@@ -6,86 +6,102 @@
     text-align: center;
     background-color: #084f76; /* Fondo oscuro */
     color: #fff;
-  }
-  
-  #sobre-nosotros .container {
+}
+
+#sobre-nosotros .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-  }
-  
-  #sobre-nosotros h2 {
+}
+
+#sobre-nosotros h2 {
     font-size: 2.5em;
     margin-bottom: 20px;
-    color: #00aaff;
-  }
-  
-  #sobre-nosotros p {
+    color: #00aaff; /* Azul claro */
+}
+
+#sobre-nosotros p {
     font-size: 1.2em;
     line-height: 1.6;
     margin-bottom: 40px;
-  }
-  
-  #sobre-nosotros h3 {
+}
+
+#sobre-nosotros h3 {
     font-size: 2em;
     margin-top: 30px;
     margin-bottom: 15px;
-    color: #00aaff;
-  }
-  
-  /* Estilo de las tarjetas */
-  .card {
-    background-color: #34495e;
-    padding: 20px;
-    margin: 20px;
-    display: inline-block;
-    width: 45%;
-    border-radius: 10px;
-    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
-    text-align: left;
-    transition: transform 0.3s ease;
-  }
-  
-  .card:hover {
-    transform: scale(1.05);
-  }
-  
-  .card-img {
-    text-align: center;
-    margin-bottom: 15px;
-  }
-  
-  .card-img img {
-    max-width: 100%;
-    border-radius: 10px;
-  }
-  
-  .card-text h4 {
-    font-size: 1.5em;
-    color: #00aaff;
-  }
-  
-  .card-text p {
-    font-size: 1.2em;
-  }
-  
-  /* Botón de CTA */
-  .cta {
+    color: #00aaff; /* Azul claro */
+}
+
+/* Estilo para las cajas de resumen */
+.info-cajas {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
     margin-top: 40px;
-  }
-  
-  .cta-btn {
+}
+
+.info-caja {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    width: 30%;
+    margin: 10px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.info-caja:hover {
+    transform: scale(1.05);
+}
+
+.info-caja h4 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #00aaff; /* Color oro */
+}
+
+.info-caja p {
+    font-size: 1.1em;
+    line-height: 1.5;
+    color: #fff;
+}
+
+/* Botón de CTA */
+.cta {
+    margin-top: 40px;
+}
+
+.cta-btn {
     padding: 15px 30px;
-    background-color: #00aaff;
+    background-color: #00aaff; /* Color oro */
     color: #222222;
     border: none;
     border-radius: 5px;
     font-size: 1.2em;
     cursor: pointer;
     transition: background-color 0.3s ease;
-  }
-  
-  .cta-btn:hover {
-    background-color: #34495e;
-  }
-  
+}
+
+.cta-btn:hover {
+    background-color: #34495e; /* Gris oscuro */
+}
+
+/* Footer */
+footer {
+    background-color: #2c3e50; /* Azul oscuro */
+    color: #00aaff; /* Color oro */
+    text-align: center;
+    padding: 20px;
+}
+
+footer .footer-logo {
+    margin-bottom: 10px;
+}
+
+footer .footer-logo img {
+    max-width: 80px; /* Tamaño más pequeño del logo */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
