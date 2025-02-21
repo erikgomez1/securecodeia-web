@@ -41,7 +41,7 @@
     display: inline-block;
     width: 45%;
     border-radius: 10px;
-    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 10px 15px #34495e;
     text-align: left;
     transition: transform 0.3s ease;
   }
