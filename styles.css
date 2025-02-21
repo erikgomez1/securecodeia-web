@@ -1,0 +1,201 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0a3d6e; /* Azul oscuro (fondo) */
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background-color: #084f76; /* Azul más oscuro */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Logo dentro del header */
+header .logo {
+    font-size: 2em;
+    color: #00aaff; /* Azul claro del logo */
+}
+
+header .logo a {
+    color: #00aaff; /* Azul claro */
+    text-decoration: none;
+    font-size: 2em; /* Ajuste de tamaño */
+}
+
+header .logo img {
+    max-width: 120px;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centra el logo */
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 10px;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+/* Sección de inicio (Hero) */
+#inicio {
+    background-image: url('https://via.placeholder.com/1920x800');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+#inicio .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#inicio h2 {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+}
+
+#inicio p {
+    font-size: 1.3em;
+    margin-bottom: 40px;
+}
+
+/* Botones comunes */
+.cta-btn {
+    padding: 15px 30px;
+    background-color: #00aaff; /* Color oro (para el botón) */
+    color: #222222;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #34495e; /* Color más oscuro de oro */
+}
+
+/* Sección de Planes */
+#planes {
+    background-color: #2c3e50; /* Azul más oscuro (de fondo de planes) */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#planes h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.plan {
+    background-color: #34495e; /* Gris oscuro */
+    padding: 30px;
+    margin: 20px;
+    display: inline-block;
+    width: 30%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.plan:hover {
+    transform: scale(1.05);
+}
+
+.plan h3 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #00aaff; /* Azul claro para los títulos */
+}
+
+.plan p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.plan a {
+    text-decoration: none;
+}
+
+.plan button {
+    padding: 10px 20px;
+    background-color: #00aaff; /* Azul claro para botones */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.plan button:hover {
+    background-color: #007bb5; /* Azul más oscuro para hover */
+}
+
+/* Sección de Servicios adicionales */
+#servicios {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#servicios ul {
+    list-style: none;
+    padding: 0;
+}
+
+#servicios ul li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #2c3e50; /* Gris oscuro */
+    color: #00aaff; /* Color oro */
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer a {
+    color: #00aaff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: #34495e; /* Color más oscuro de oro */
+}
+
+/* Footer - Logo */
+footer .footer-logo {
+    margin-bottom: 10px;
+}
+
+footer .footer-logo img {
+    max-width: 80px; /* Tamaño más pequeño del logo */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}

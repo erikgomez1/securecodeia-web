@@ -1,0 +1,50 @@
+/* privacidad.css */
+
+/* Fondo y espaciado */
+#privacidad {
+    background-color: #222; /* Fondo oscuro */
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#privacidad .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#privacidad h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#privacidad h3 {
+    font-size: 1.8em;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+#privacidad p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* Alineación y diseño del footer */
+footer {
+    background-color: #1e1e1e;
+    color: #00aaff; /* Color oro */
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* Estilos generales para mejorar la legibilidad */
+h2, h3 {
+    color: #00aaff;
+}
+
+p {
+    margin-bottom: 20px;
+}
